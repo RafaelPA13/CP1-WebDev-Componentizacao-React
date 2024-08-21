@@ -17,11 +17,11 @@ export default function Sobre() {
         </div>
         <div className="banner-fotos">
           <img
-            src="../../../public/images/banners/celular1.png"
+            src="/images/banners/celular1.png"
             alt="celular1"
           />
           <img
-            src="../../../public/images/banners/celular2.png"
+            src="/images/banners/celular2.png"
             alt="celular2"
           />
         </div>
@@ -61,7 +61,7 @@ export default function Sobre() {
             conteudo={
               <div className="conteudo">
                 <img
-                  src="../../../public/images/card-sobre-img.png"
+                  src="/images/card-sobre-img.png"
                   alt="mulher com celular"
                 />
               </div>
