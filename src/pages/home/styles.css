@@ -1,0 +1,62 @@
+.hero {
+    background-color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    max-width: 45%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
