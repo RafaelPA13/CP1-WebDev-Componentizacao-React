@@ -1,5 +1,5 @@
 import './styles.css';
 
 export default function Contato() {
-  return <div>Insira o conteúdo da página de contato aqui</div>;
+  return <div><h1>Dúvidas e suporte, entre em contato:</h1></div>;
 }
