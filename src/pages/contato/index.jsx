@@ -1,4 +1,5 @@
-import './styles.css';
+import "./styles.css";
+import Inputs from "../../components/inputs";
 
 export default function Contato() {
   return (
@@ -11,7 +12,7 @@ export default function Contato() {
           <h1>Dúvidas e suporte, entre em contato:</h1>
           <div className='icons'>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <img src="/images/icons/twitter_icon.png" alt="Icone X" />
+              <img src="/images/icons/twitter_icon.png" alt="Icone Twitter" />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
               <img src="/images/icons/instagram2_icon.png" alt="Icone Instagram" />
@@ -23,21 +24,11 @@ export default function Contato() {
         </div>
         <div id="contact">
           <form>
-            <div className="form-group">
-              <label htmlFor="nome">Nome:</label>
-              <input type="text" id="nome" placeholder=" " />
-            </div>
-
-            <div className="form-group">
-              <label htmlFor="email">Email:</label>
-              <input type="email" id="email" placeholder=" " />
-            </div>
-
-            <div className="form-group full-width">
-              <label htmlFor="mensagem">Mensagem:</label>
-              <textarea id="mensagem" placeholder=" "></textarea>
-            </div>
-
+            <Inputs 
+              nomeLabel="Nome:" 
+              emailLabel="Email:" 
+              mensagemLabel="Mensagem:" 
+            />
             <button type="submit" className="enviar-btn">Enviar</button>
           </form>
         </div>
