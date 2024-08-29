@@ -1,12 +1,13 @@
 import "./styles.css";
-import Inputs from "../../components/inputs";
+import Input from "../../components/inputs";
+import Textarea from "../../components/textArea";
 
 export default function Contato() {
   return (
     <>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-    </style>
+      <style>
+        {`@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');`}
+      </style>
       <div className="container">
         <div className="contato-texto">
           <h1>Dúvidas e suporte, entre em contato:</h1>
@@ -24,11 +25,9 @@ export default function Contato() {
         </div>
         <div id="contact">
           <form>
-            <Inputs 
-              nomeLabel="Nome:" 
-              emailLabel="Email:" 
-              mensagemLabel="Mensagem:" 
-            />
+            <Input label="Nome:" placeholder="Seu nome" />
+            <Input label="Email:" placeholder="Seu email" type="email" />
+            <Textarea label="Mensagem:" placeholder="Sua mensagem" />
             <button type="submit" className="enviar-btn">Enviar</button>
           </form>
         </div>
