@@ -1,62 +1,78 @@
+/* Container Pai */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
+/* Seção de Texto de Contato */
 .contato-texto {
     width: 35%;
     display: flex;
-    height: 450px;
-    align-items: center;
     flex-direction: column;
-    padding: 50px;
-    padding-right: 20px;
+    align-items: flex-start;
+    height: 450px;
+    padding: 50px 20px 50px 50px;
     border-right: 2px solid;
     box-sizing: border-box;
-    text-align: left; 
 }
 
 .contato-texto h1 {
-    font-size: 50px;
-    width: 100%; 
-    margin: 20px 0; 
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
+/* Ícones */
+.icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.icons a:hover img {
+    transform: scale(1.1);
+}
+
+/* Seção de Contato */
 #contact {
     display: flex;
     width: 35%;
     flex-direction: column;
+    padding-left: 20px; 
 }
 
 #contact form {
     display: flex;
     flex-direction: column;
-    align-items: stretch; 
+    gap: 15px;
 }
 
 .form-group {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    margin-right: 10px;
-    min-width: 60px; 
-    text-align: right;
+    gap: 10px;
 }
 
 .form-group input {
-    flex: 1; 
-    padding: 8px; 
-    border-radius: 10px; 
-    border: 1px solid gray; 
+    flex: 1;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 100%;
 }
 
 .full-width {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: flex-start;
 }
 
@@ -67,18 +83,20 @@
 .full-width textarea {
     width: 100%;
     padding: 10px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    border: 1px solid gray;
     height: 150px; 
 }
 
+/* Botão */
 .enviar-btn {
     background-color: #6975E8;
-    color: #ffffff; 
-    border: none; 
+    color: #ffffff;
+    border: none;
     padding: 10px 80px;
-    border-radius: 15px; 
+    border-radius: 15px;
     align-self: flex-end;
     margin-top: 10px;
     cursor: pointer;
-    font-size: 16px; 
+    font-size: 16px;
 }
