@@ -25,9 +25,9 @@ export default function Contato() {
         </div>
         <div id="contact">
           <form>
-            <Input label="Nome:" placeholder="Seu nome" />
-            <Input label="Email:" placeholder="Seu email" type="email" />
-            <Textarea label="Mensagem:" placeholder="Sua mensagem" />
+            <Input label="Nome:" placeholder=" " />
+            <Input label="Email:" placeholder=" " type="email" />
+            <Textarea label="Mensagem:" placeholder=" " />
             <button type="submit" className="enviar-btn">Enviar</button>
           </form>
         </div>
