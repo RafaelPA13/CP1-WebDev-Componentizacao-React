@@ -1,0 +1,71 @@
+/* Container Pai */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+/* Seção de Texto de Contato */
+.contato-texto {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 450px;
+    padding: 50px 20px 50px 50px;
+    border-right: 2px solid;
+    box-sizing: border-box;
+}
+
+.contato-texto h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Ícones */
+.icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.icons a:hover img {
+    transform: scale(1.1);
+}
+
+/* Botão */
+.enviar-btn {
+    background-color: #6975E8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 80px;
+    border-radius: 15px;
+    align-self: flex-end;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#contact {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    padding-left: 20px; 
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}

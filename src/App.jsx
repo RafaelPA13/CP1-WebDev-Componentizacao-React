@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Home from './pages/home';
 import Sobre from './pages/sobre';
-import Contato from './pages/contato';
+import Contato from './pages/contato'
 import NotFound from './pages/not-found';
 import './App.css';
 
