@@ -4,10 +4,6 @@ import Textarea from "../../components/textArea";
 
 export default function Contato() {
   return (
-    <>
-      <style>
-        {`@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');`}
-      </style>
       <div className="container">
         <div className="contato-texto">
           <h1>Dúvidas e suporte, entre em contato:</h1>
@@ -25,13 +21,12 @@ export default function Contato() {
         </div>
         <div id="contact">
           <form>
-            <Input label="Nome:" placeholder=" " />
-            <Input label="Email:" placeholder=" " type="email" />
-            <Textarea label="Mensagem:" placeholder=" " />
+            <Input label="Nome:" placeholder="Jon Doe" />
+            <Input label="Email:" placeholder="example@email.com" type="email" />
+            <Textarea label="Mensagem:" placeholder="Sua mensagem" />
             <button type="submit" className="enviar-btn">Enviar</button>
           </form>
         </div>
       </div>
-    </>
   );
 }
