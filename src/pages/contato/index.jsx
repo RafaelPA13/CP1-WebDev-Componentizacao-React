@@ -4,7 +4,7 @@ import Textarea from "../../components/textArea";
 
 export default function Contato() {
   return (
-      <div className="container">
+      <div className="container-contato">
         <div className="contato-texto">
           <h1>Dúvidas e suporte, entre em contato:</h1>
           <div className='icons'>
