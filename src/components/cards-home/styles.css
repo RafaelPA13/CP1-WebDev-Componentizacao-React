@@ -1,0 +1,33 @@
+.cards-home {
+  font-family: monospace;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 16px;
+  color: #333333;
+
+  h1 {
+    font-size: 4rem;
+    color: #ffffff;
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+
+    img {
+      width: 32px;
+      margin-top: -9rem;
+    }
+  }
+
+  h3 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+}
